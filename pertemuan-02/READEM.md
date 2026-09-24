@@ -5,13 +5,12 @@
 - `index.html` - artefak utama halaman profil P2.
 - `img/foto-profil.jpg`- gambar yang digunakan pada halaman profil. 
 ## Implementasi 
-Pada P2 saya membangun 
-halaman profil menggunakan struktur HTML5 yang valid, 
+Pada P2 saya membangun halaman profil menggunakan struktur HTML5 yang valid, 
 elemen semantik, teks, daftar, tautan, dan gambar. 
 ## Validasi HTML 
 - Berkas yang divalidasi: `index.html`
-- Galat yang ditemukan: [tuliskan jika ada] 
-- Perbaikan yang dilakukan: [tuliskan]
-- Hasil validasi akhir: [tuliskan hasil] 
+- Galat yang ditemukan: [tidak ada error] 
+- Perbaikan yang dilakukan: [tidak ada perbaikan]
+- Hasil validasi akhir: [html valid] 
 ## GitHub Pages 
 URL: [https://github.com/2622500012-hub/2622500012-PWD-SI1A-2627O/tree/main/pertemuan-02] 
