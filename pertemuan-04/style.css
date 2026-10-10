@@ -1,4 +1,13 @@
-#about { 
+ * {
+  box-sizing: border-box;
+}
+ #home {
+  background-color: #ffffff;
+  border: 1px solid #d0d7de;
+  padding: 20px;
+  margin: 0;
+}
+ #about { 
       background-color: #ffffff; 
       border: 1px solid #d0d7de; 
       padding: 20px; 
@@ -72,6 +81,5 @@
       padding: 8px 14px; 
       margin: 8px 6px 0 0; 
       border: 1px solid #003366; 
-    } 
+    }
   
-
