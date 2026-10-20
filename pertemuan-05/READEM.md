@@ -1,16 +1,11 @@
-P5 - JavaScript Dasar, DOM, Event, dan Validasi Sisi Klien 
-Deskripsi 
-Dokumentasi pengembangan halaman web pada P5, meliputi JavaScript, DOM, event listener, interaksi 
-navigasi, dan validasi formulir sisi klien. 
-Fitur dan Pengembangan 
-[Nama fitur/tahap]: [Penjelasan singkat perubahan yang dilakukan.] 
-[Nama fitur/tahap]: [Penjelasan singkat perubahan yang dilakukan.] 
-Tambahkan entri setiap kali ada perkembangan penting pada proyek. 
-Pengujian 
-[Fitur yang diuji]: [Langkah pengujian dan hasil aktual.] 
-[Fitur yang diuji]: [Langkah pengujian dan hasil aktual.] 
-Perbarui bagian ini setelah melakukan pengujian atau debugging yang relevan. 
-Riwayat Pengembangan 
-Catat perkembangan melalui commit Git yang bermakna. 
-[Pesan commit]: [Ringkasan perubahan dan hasil pengujiannya.] 
-[Pesan commit]: [Ringkasan perubahan dan hasil pengujiannya.]
+JavaScript Dasar: Menambahkan kode JavaScript untuk menjalankan instruksi dan mengolah input pengguna sesuai kebutuhan modul.
+
+Manipulasi DOM: Menggunakan JavaScript untuk mengakses dan memanipulasi elemen HTML pada halaman web.
+
+Event Listener: Menambahkan event listener untuk menjalankan fungsi ketika pengguna melakukan tindakan, seperti mengeklik tombol.
+
+Interaksi Navigasi: Menambahkan interaksi pada elemen navigasi sesuai instruksi modul.
+
+Validasi Formulir Sisi Klien: Menambahkan pemeriksaan input formulir agar data yang dimasukkan sesuai dengan ketentuan sebelum diproses.
+
+Debugging: Memeriksa kesalahan JavaScript melalui browser dan memperbaiki kode jika ditemukan masalah.
