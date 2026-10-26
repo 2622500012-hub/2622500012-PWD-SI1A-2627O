@@ -7,15 +7,11 @@
       <link rel="stylesheet" href="style.css" />
     </head>
 
-<body>
+<body> 
+<p>Konten HTML statis.</p> 
 <?php 
-// Komentar satu baris. 
-print "Keluaran menggunakan print."; 
-/* 
-Komentar beberapa baris. 
-Komentar ini tidak ditampilkan pada halaman. 
-*/ 
-?>  
+echo "<p>Konten yang dihasilkan oleh PHP.</p>"; 
+?> 
     <header>
         <div class="header-top"
         <h1>Profil Mahasiswa</h1>
