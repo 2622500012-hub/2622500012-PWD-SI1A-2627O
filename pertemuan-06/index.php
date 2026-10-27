@@ -141,7 +141,7 @@ switch ($programStudi) {
         <h2>Kontak</h2>
         <p>
             Kunjungi 
-            <a target="_blank" href="https://github.com/2622500012-hub/2622500012-PWD-SI1A-2627O<?= PROFIL_GITHUB ?>">profil GitHub saya</a>.
+            <a target="_blank" href="https://github.com/2622500012-hub/2622500012-PWD-SI1A-2627O/<?= PROFIL_GITHUB ?>">profil GitHub saya</a>.
         </p>
 
         <form action="index.html" method="get"> 
