@@ -49,7 +49,7 @@ const PROFIL_GITHUB = "satpamal";
   <main> 
     <section id="home"> 
       <h2>Selamat Datang</h2> 
-      <p>Halo, saya Stella Lindi Adeviani. Saya sedang mempelajari Pemrograman Web Dasar.</p> 
+      <p>Halo, saya <strong><?php echo $namaMahasiswa; ?></strong>. Saya sedang mempelajari matakuliah <strong><?php print NAMA_MATA_KULIAH; ?></strong> pada tahun akademik <?php echo $tahunAkademik; ?>.</p>  
       <img src="img/foto-profil.png" alt="Foto profil Stella Lindi Adeviani"> 
     </section> 
   
@@ -70,7 +70,10 @@ const PROFIL_GITHUB = "satpamal";
   
     <section id="contact">
         <h2>Kontak</h2>
-        <p>Kunjungi <a href="https://github.com/2622500012-hub/2622500012-PWD-SI1A-2627O">profil GitHub saya</a>.</p>
+        <p>
+            Kunjungi 
+            <a target="_blank" href="https://github.com/2622500012-hub/2622500012-PWD-SI1A-2627O<?= PROFIL_GITHUB ?>">profil GitHub saya</a>.
+        </p>
 
         <form action="index.html" method="get"> 
           <div class="form-group"> 
