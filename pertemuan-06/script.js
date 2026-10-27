@@ -76,3 +76,17 @@ contactForm.addEventListener("reset", () => {
 contactForm.addEventListener("input", () => {
   formFeedback.textContent = "";
 });
+const contactForm = document.getElementById("contactForm");
+const formFeedback = document.getElementById("formFeedback");
+contactForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const nama = document.getElementById("nama").value.trim();
+if (nama === "") {
+        formFeedback.textContent = "Nama wajib diisi.";
+        return;
+    }
+
+    formFeedback.textContent = "Form berhasil divalidasi.";
+});
+

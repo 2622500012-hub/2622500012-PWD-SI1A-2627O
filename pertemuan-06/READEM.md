@@ -38,5 +38,9 @@ Deklarasi dan Penggunaan Variabel PHP
 
 - Perubahan Form: Mengubah atribut action pada elemen <form> di bagian Kontak dari yang sebelumnya mengarah ke index.html (pada P5) menjadi index.php (pada P6).
 - Catatan Ruang Lingkup: Pemrosesan data formulir lebih lanjut (seperti metode GET/POST dan validasi) dibatasi dan akan dipelajari pada modul Pertemuan 7 (P7).
+Menguji formulir dalam keadaan kosong untuk memastikan pesan validasi muncul.
+Menguji input yang tidak sesuai dengan ketentuan.
+Menguji formulir dengan seluruh input yang sesuai.
+Memastikan interaksi JavaScript pada halaman berjalan sesuai implementasi.
 
 Github URL : https://github.com/2622500012-hub/2622500012-PWD-SI1A-2627O/tree/main/pertemuan-06
