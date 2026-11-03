@@ -1,21 +1,58 @@
-<?php
+<php
 // Bagian 1: Variabel dan konstanta
+
 $namaUsaha = "Toko Sepatu Stella";
 $tagline = "Step Into Your Style";
 $jenisUsaha = "Penjualan Sepatu";
 $jumlahProduk = 3;
 $statusUsaha = true;
 $catatan = null;
+
 const NAMA_PEMILIK = "Stella Lindi Adeviani";
 const KATEGORI_USAHA = "Fashion";
 
+// Bagian 2: Operator
+
+$stokAwal = 20;
+$produkTerjual = 5;
+
+$sisaStok = $stokAwal - $produkTerjual;
+
+$stokTersedia = $sisaStok > 0;
+
+$statusStok = $stokTersedia ? "Tersedia" : "Habis";
+
+
 // Bagian 3: Percabangan
+
 if ($sisaStok == 0) {
     $keteranganStok = "Stok habis";
 } elseif ($sisaStok <= 5) {
     $keteranganStok = "Stok hampir habis";
 } else {
     $keteranganStok = "Stok masih tersedia";
+}
+
+// Bagian 4: Switch-case-default
+
+$jenisProduk = "Sneakers";
+
+switch ($jenisProduk) {
+    case "Sneakers":
+        $keteranganProduk = "Sepatu untuk gaya sehari-hari";
+        break;
+
+    case "Olahraga":
+        $keteranganProduk = "Sepatu untuk aktivitas olahraga";
+        break;
+
+    case "Mendaki":
+        $keteranganProduk = "Sepatu untuk kegiatan mendaki";
+        break;
+
+    default:
+        $keteranganProduk = "Kategori belum tersedia";
+        break;
 }
 ?>
 <doctype html>
