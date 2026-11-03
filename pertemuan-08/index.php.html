@@ -1,3 +1,23 @@
+<?php
+// Bagian 1: Variabel dan konstanta
+$namaUsaha = "Toko Sepatu Stella";
+$tagline = "Step Into Your Style";
+$jenisUsaha = "Penjualan Sepatu";
+$jumlahProduk = 3;
+$statusUsaha = true;
+$catatan = null;
+const NAMA_PEMILIK = "Stella Lindi Adeviani";
+const KATEGORI_USAHA = "Fashion";
+
+// Bagian 3: Percabangan
+if ($sisaStok == 0) {
+    $keteranganStok = "Stok habis";
+} elseif ($sisaStok <= 5) {
+    $keteranganStok = "Stok hampir habis";
+} else {
+    $keteranganStok = "Stok masih tersedia";
+}
+?>
 <doctype html>
 <html lang="id">
     <head>
@@ -61,7 +81,7 @@
     <section id="registrasi">
         <h2>Form Registrasi</h2>
 
-         <form id="contactForm" action="index.html" method="get" novalidate> 
+         <form id="contactForm" action="index.php" method="get" novalidate> 
           <div class="form-group"> 
             <label for="nama">Nama Lengkap</label><br /> 
             <input 
