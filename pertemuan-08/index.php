@@ -1,4 +1,4 @@
-<php
+<?php
 // Bagian 1: Variabel dan konstanta
 
 $namaUsaha = "Toko Sepatu Stella";
