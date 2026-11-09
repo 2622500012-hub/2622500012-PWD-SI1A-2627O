@@ -152,7 +152,7 @@ switch ($programStudi) {
 
         <form id="contactForm" action="index.php" method="get" novalidate> 
           <div class="form-group"> 
-            <label for="nama">Nama Lengkap</label><br> 
+            <label for="nama">Nama Lengkap</label><br /> 
             <input 
               class="input-form"
               type="text" 
@@ -161,7 +161,7 @@ switch ($programStudi) {
               placeholder="Masukkan nama lengkap" 
               minlength="3" 
               maxlength="50" 
-              required> 
+              required/> 
           </div>
 
           <div class="form-group">
