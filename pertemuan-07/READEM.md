@@ -10,3 +10,6 @@ pemilihan pada topik dipilih atau topik yang diminati hanya bisa di pilih satu, 
 
 F.6 Hasil pengujian tahap 1
 saya menguji validasi formulir menggunakan PHP dengan mengirimkan data yang tidak sesuai aturan. Hasil pengujian menunjukkan bahwa pesan kesalahan ditampilkan ketika kondisi validasi terpenuhi. Pengujian ini memastikan PHP dapat memberikan informasi kesalahan kepada pengguna.
+
+F.6 Hasil pengujian tahap 2
+setelah formulir di kirim setiap variabel ditampilkan pada bagian Data yang Diterima Peladen.
