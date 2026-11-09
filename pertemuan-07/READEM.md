@@ -13,3 +13,7 @@ saya menguji validasi formulir menggunakan PHP dengan mengirimkan data yang tida
 
 F.6 Hasil pengujian tahap 2
 setelah formulir di kirim setiap variabel ditampilkan pada bagian Data yang Diterima Peladen.
+
+G.1 Hasil uji penerapan session dan PRG
+setelah negirim formulir peramban kembali menampilkan halaman utama dan bagian Data yang diterima peladen menampilkan data yang dikirim. Setelah muat ulang halaman menggunakan 
+CTRL+SHIFT+R data formulir tetap ditampilkan tanpa meminta pengiriman ulang formulir.
